@@ -1,0 +1,705 @@
+@import 'header.css';
+@import 'body.css';
+@import 'footer.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+
+}
+
+body #page {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+
+}
+
+a:active {
+    background: none;
+}
+
+img {
+    border: none;
+}
+
+#body div.header {
+    background-color: #7A6666;
+    margin: 0 auto;
+    max-width: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+#body div.header div h1 {
+    color: #fff;
+    font-family: lato-regular-webfont;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+    padding: 28px 0 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#body.contact div.body {
+    background: url(../img/map.png) no-repeat center top #b5aaad;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+
+}
+
+#body.contact div.body div {
+    margin: 0 auto;
+    padding: 40px 0 0;
+    overflow: hidden;
+    max-width: 960px;
+}
+
+#body.contact div.body div div {
+    background: url(../img/backgr.png) repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0 35px 133px;
+    width: 747px;
+}
+
+
+#body.contact div.body div div h1 {
+    color: #0502ad;
+    float: left;
+    font-size: 24px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 15px 0 4px;
+    width: 510px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#body.contact div.body div div p {
+    color: #7a6666;
+    float: left;
+    font-size: 16px;
+    font-family: roboto-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 510px;
+}
+
+#body div.footer .contact {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0 0 61px 40px;
+    width: 590px;
+    max-width: none;
+
+}
+
+#body div.footer .contact h1 {
+    color: #2f078a;
+    float: none;
+    margin: 0;
+    padding: 0 0 43px;
+    width: auto;
+    font-size: 24px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#body div.footer .contact form {
+    margin: 0;
+    padding: 0;
+    width: 560px;
+    overflow: hidden;
+}
+
+#body div.footer .contact form input {
+    background-color: none;
+    border: 1px solid #b6adb0;
+    color: #7a6666;
+    display: block;
+    font-size: 16px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 0 0 10px;
+    margin: 0 0 8px;
+    width: 548px;
+    text-align: left;
+}
+
+#body div.footer .contact form textarea {
+    background-color: none;
+    border: 1px solid #b6adb0;
+    color: #7a6666;
+    display: block;
+    font-size: 16px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    height: 270px;
+    line-height: 24px;
+    padding: 7px 0 0 10px;
+    margin: 0 0 9px;
+    width: 548px;
+    text-align: left;
+    resize: none;
+}
+
+#body div.footer .contact form input#submit {
+    background-color: none;
+    border: 2px solid #534380;
+    color: #a5838e;
+    display: block;
+    font-size: 16px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    height: 40px;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+    width: 141px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#body div.footer .contact form input#submit:hover {
+    background-color: #0ffcf0;
+    border: 2px solid #123331;
+    height: 40px;
+    width: 141px;
+    color: #000;
+}
+
+#body div.footer .section {
+    background-color: #EFEDEE;
+    float: left;
+    margin: 0;
+    padding: 0 0 35px;
+    width: 280px;
+    max-width: none;
+}
+
+#body div.body {
+    background-color: #ebebed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+    min-height: 338px;
+    overflow: hidden;
+}
+
+#body div.body img {
+    display: block;
+    left: 50%;
+    margin: 0 auto 0 -507px;
+    padding: 0;
+    position: absolute;
+    width: 1014px;
+}
+
+#body div.footer {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 60px 0 110px;
+}
+
+#body div.footer .section h4 {
+    color: #880505;
+    display: block;
+    font-size: 24px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 24px 0 27px;
+    text-align: center;
+    width: 202px;
+    text-transform: uppercase;
+}
+
+#body div.footer .section p {
+    color: #7a6666;
+    display: block;
+    font-size: 16px;
+    font-family: roboto-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 202px;
+}
+
+#body div.footer div.sidebar {
+    background-color: #EFEDEE;
+    float: left;
+    margin: 0 10px 0 48px;
+    padding: 36px 0 34px;
+    width: 288px;
+}
+
+#body div.footer div.sidebar h1 {
+    display: block;
+    line-height: 48px;
+    padding: 0 0 50px;
+    margin: 0 auto;
+    width: 193px;
+    text-align: center;
+}
+
+#body div.footer div h1 {
+    color: #0502ad;
+    font-size: 24px;
+    font-family: lato-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 27px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#body div.footer div.sidebar p {
+    display: block;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    width: 169px;
+}
+
+#body div.footer div p {
+    color: #7A6666;
+    font-size: 16px;
+    font-family: roboto-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: left;
+}
+
+#body div.footer div p a {
+    color: #1f046b;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: roboto-regular-webfont;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+#body div.footer div.article {
+    float: left;
+    margin: 0;
+    padding: 50px 0 0 30px;
+    width: 560px;
+}
+
+#body div.footer div span {
+    margin: 0;
+    padding: 0 0 24px;
+    text-align: left;
+    font-size: 16px;
+    font-family: roboto-regular-webfont;
+    color: #7A6666;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#body div.footer div p a:hover,
+#body div ul li p a:hover,
+#body div.blog .sidebar p a:hover,
+#body.contact div.body div div p a:hover {
+    color: #0ffcf0
+}
+
+.blog-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card-content {
+    color: #333;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more-btn,
+.share-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn {
+    background-color: #3498db;
+}
+
+.share-btn {
+    background-color: #2ecc71;
+}
+
+.read-more-btn:hover,
+.share-btn:hover {
+    background-color: #2980b9;
+}
+
+.blog-post {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #534380;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.author-avater img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.author-avater figcaption {
+    font-size: 14px;
+    padding-left: 15px;
+    color: rgb(47, 47, 252);
+}
+
+.author-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.author-details p {
+    margin-bottom: 5px;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.author-img {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.author-img:last-child {
+    margin-right: 0;
+}
+
+.author-img img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+}
+
+.author-img .label {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 190px;
+}
+
+.comments-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.comments {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.comments h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.comments p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.additional-section {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.additional-section h5 {
+    font-size: 30px;
+    color: #534380;
+    text-align: center;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-content div {
+    padding: 20px;
+    border: 1px solid #110130;
+    border-radius: 8px;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.header2 {
+    text-align: center;
+    color: #534380;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Adjustments for header */
+    #header div {
+        padding: 20px 10px;
+    }
+
+    #header div a.logo {
+        margin: 0 10px;
+    }
+
+    #header div ul {
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #header div ul li {
+        display: block;
+        margin: 0;
+    }
+
+    #header div ul li a {
+        display: block;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #header div ul li:last-child a {
+        border-bottom: none;
+    }
+
+    #body.home div.body div div h2 {
+        font-size: 18px;
+    }
+
+    #body.home div.body div div p {
+        font-size: 14px;
+    }
+
+    #body div.footer div h1 {
+        font-size: 14px;
+    }
+
+    #body div.footer div p {
+        font-size: 13px;
+    }
+
+    #body div.body img {
+        width: 169%;
+    }
+
+    #body div.footer .contact {
+        padding: 0 0 50px 15px;
+    }
+
+    #body.contact div.body div div {
+        padding: 30px 0 35px 20px;
+    }
+
+    #body.contact div.body div div p {
+        font-size: 14px;
+    }
+
+    #body div.footer {
+        padding: 60px 0 20px;
+    }
+
+    #body div.footer .contact form {
+        width: 400px;
+    }
+
+    #body div.footer .contact form input {
+        width: 380px;
+    }
+
+    #body div.footer .contact form textarea {
+        width: 380px;
+    }
+
+    .author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .author-img .label {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 70px;
+    }
+
+    #body.home div.header img {
+        width: 945px;
+    }
+
+    #body.home div.header div a {
+        top: 327px;
+    }
+
+    #body.home div.body div div blockquote {
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width:1024px) {
+
+    .additional-section,
+    .comments-container,
+    .blog-post {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .author-img .label{
+        padding-right: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .additional-section,
+    .comments-container,
+    .blog-post {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .author-img .label{
+        padding-right: 10px;
+    }
+    #body div.footer div.article{
+        width: 700px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .additional-section,
+    .comments-container,
+    .blog-post {
+        display: block;
+    }
+    #body.home div.body div div blockquote{
+        margin-left: 1px;
+        font-size: 13px;
+        width: 60%;
+        margin-right: auto;
+    }
+    #body div.body img{
+        width: 200%;
+    }
+    #body div.footer div.article {
+        margin-left: 1px;
+        font-size: 13px;
+        width: 85%;
+        margin-right: auto;
+    }
+    
+    #body div.footer .contact form input{
+        width: 330px;
+    }
+    #body div.footer .contact form textarea{
+        width: 330px;
+    }
+}

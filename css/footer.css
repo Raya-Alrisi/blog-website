@@ -1,0 +1,38 @@
+
+#footer{
+    background-color: #7a6666;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+#footer div{
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 20px 0 5px;
+}
+
+#footer div p {
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-family: roboto-regular-webfont;
+    font-weight: normal;
+    line-height: 15px;
+    padding: 33px 0 20px;
+    margin: 0;
+    text-align: center;
+    text-transform: none;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-icons img {
+    width: 50px;
+    height: 50px;
+}

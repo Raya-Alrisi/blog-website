@@ -1,0 +1,175 @@
+
+#body.home{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#body.home div.header{
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    max-width: none;
+}
+
+#body.home div.header img{
+    display: block;
+    left: 50%;
+    margin: 0 auto 0 -563px;
+    padding: 0;
+    width: 1173px;
+    position: absolute;
+}
+
+#body.home div.header div{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    max-width: 960px;
+    min-height: 660px;
+}
+
+#body.home div.header div a {
+    color: #ffffff;
+    display: block;
+    font-family: quicksand-bold-webfont;
+    font-size: 24px;
+    font-weight: normal;
+    height: 99px;
+    margin: 0;
+    padding: 52px 0 0;
+    line-height: 24px;
+    position: absolute;
+    right: 130px;
+    top: 437px;
+    width: 156px;
+    z-index: 90;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../img/icon.png) no-repeat 0 -128px;
+}
+
+#body.home div.body{
+    background-color: #eae7e8;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+}
+
+#body.home div.body div{
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 960px;
+}
+
+#body.home div.body div div{
+    width: 560px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    float: left;
+}
+
+
+#body.home div.body div div h1{
+    color: #7A6666;
+    display: block;
+    font-family: lato-bold-webfont;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 47px 0 18px;
+    width: 560px;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+#body.home div.body div div h2{
+    color: #E32A62;
+    display: block;
+    font-size: 30px;
+    font-family: magra-bold-webfont;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: left;
+    text-transform: none;
+    margin: 0;
+    padding: 0 0 26px;
+    width: 560px;
+}
+#body.home div.body div div h3{
+    color: #008b07;
+    display: block;
+    font-size: 22px;
+    font-family: lato-bold-webfont;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: left;
+    text-transform: none;
+    margin: 0;
+    padding: 0 0 26px;
+    width: 560px;
+}
+#body.home div.body div div blockquote{
+    font-size: 22px;
+    font-family: lato-bold-webfont;
+    font-weight: normal;
+    line-height: 30px;
+    color: #030166;
+    display: block;
+}
+#body.home div.body div div .share-btn{
+    color: #fff;
+    background-color: #7a6666;
+    border-radius: 5%;
+    display: block;
+    font-size: 19px;
+    font-family: magra-bold-webfont;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+#body.home div.body div div .share-btn a{
+    color: #fff;
+}
+
+#body.home div.body div div p{
+    color: #7a6666;
+    display: block;
+    font-family: roboto-regular-webfont;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 560px;
+}
+
+#body.home div.body div div p a{
+    color: #7a6666;
+    display: block;
+    font-size: 14px;
+    font-family: roboto-regular-webfont;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#body.home div.body div div p a:hover{
+    color: #c8c10d;
+
+}
